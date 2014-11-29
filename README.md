@@ -28,7 +28,7 @@ The backend of hplayer app, mainly focus on crawling useful data from some websi
 
  * Intall from the requirements.txt file: pip install -r requirements.txt
  * Go to django-separatedvaluesfield folder and type: python setup.py install
- * Swtich back to the project root folder and type: pythocdn manager.py makemigrations
+ * Swtich back to the project root folder and type: python manager.py makemigrations
  * Run the migrations: python manager.py migrate media
 
 #### 4. Start the server locally
