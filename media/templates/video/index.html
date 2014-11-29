@@ -1,0 +1,9 @@
+{% if video_list %}
+    <ul>
+    {% for video in video_list %}
+        <li><a href="{% url 'video_detail' video.id %}">{{ video.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No videos are available.</p>
+{% endif %}

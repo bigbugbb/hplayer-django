@@ -1,0 +1,4 @@
+Django > 1.7
+psycopg2
+beautifulsoup4
+

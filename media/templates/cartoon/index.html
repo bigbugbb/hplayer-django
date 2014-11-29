@@ -1,0 +1,9 @@
+{% if cartoon_list %}
+    <ul>
+    {% for cartoon in cartoon_list %}
+        <li><a href="{% url 'cartoon_detail' cartoon.id %}">{{ cartoon.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No cartoons are available.</p>
+{% endif %}

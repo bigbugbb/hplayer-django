@@ -1,0 +1,9 @@
+{% if audio_list %}
+    <ul>
+    {% for audio in audio_list %}
+        <li><a href="{% url 'audio_detail' audio.id %}">{{ audio.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No audios are available.</p>
+{% endif %}
