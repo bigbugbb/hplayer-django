@@ -34,7 +34,7 @@ The backend of hplayer app, mainly focus on crawling useful data from some websi
 #### 4. Start the server locally
  * Start the server locally: python manager.py runserver
  
- #### 5. Start the server on EC2
+#### 5. Start the server on EC2
  * Make sure apache2 is installed
  * Follow the apache part in this tutorial: https://www.digitalocean.com/community/tutorials/how-to-run-django-with-mod_wsgi-and-apache-with-a-virtualenv-python-environment-on-a-debian-vps
  * Start the server: sudo service apache2 restart
